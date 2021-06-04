@@ -1,11 +1,17 @@
 # Pickdress
 
+
 # Anggota Kelompok 8:
 1. Fatimah Alfiatul Jannah (G64190014) Backend Developer
 2. Nadira Nazla (isi nim ya gaes aku gatau :")) UI/UX Designer
 3. Fathin Humaira (isi nim ya gaes aku gatau :")) Frontend Developer
+Paralel 1
 
-# Pickdress
+# Asisten Praktikum:
+1. Indah Puspita
+2. Qoriatul Khairunnisa
+
+# About The App
 PickDress adalah situs yang menyediakan ide kepada pengguna khususnya wanita, baik remaja maupun dewasa mengenai busana apa yang akan dipakai. Terdapat beribu-ribu mix & match busana yang tersedia mulai dari untuk keperluan acara formal maupun non-formal. Situs ini sangat mudah digunakan, pengguna hanya perlu mengunjungi kategori yang sesuai dengan kebutuhan lalu PickDress akan menampilkan berbagai macam ide berpakaian.
 
 # User Analysis
@@ -19,21 +25,21 @@ user story
   
 # Spesifikasi Teknis Lingkungan Pengembangan
 1. Hardware 
-- Processor: Intel Core i5-8250U 1.6GHz 
-- Memory: 4 GB DDR4 
-- Graphics Card: NVIDIA GeForce MX150 with 2 GB VRAM 
-- Storage: 1000 GB HDD 
+  - Processor: Intel Core i5-8250U 1.6GHz 
+  - Memory: 4 GB DDR4 
+  - Graphics Card: NVIDIA GeForce MX150 with 2 GB VRAM 
+  - Storage: 1000 GB HDD 
 
 2. Software 
-- Text Editor: Sublime Text 3 dan vscode 
-- Operating System: Windows 10 
-- Database: MySQL 
-- Server: Apache 
+  - Text Editor: Sublime Text 3 dan vscode 
+  - Operating System: Windows 10 
+  - Database: MySQL 
+  - Server: Apache 
 
 3. More
-- Collaboration Platform: Github, Trello 
-- PHP, Javascript, CSS, HTML, Bootstrap
-- Visual Editing: Figma
+  - Collaboration Platform: Github, Trello 
+  - PHP, Javascript, CSS, HTML, Bootstrap
+  - Visual Editing: Figma
 
 # Hasil dan Pemabahasan
 1. Use Case Diagram
@@ -43,6 +49,18 @@ user story
 5. Arsitektur Sistem
 6. Fungsi Utama yang Dikembangkan
 7. Fungsi CRUD
+  - Create
+    - User: User membuat akun pickdress dengan menginput username, email, dan password
+    - Admin: admin membuat dress baru dengan menginput judul dress, gambar, deskripsi, kategori, dan keyword yang sesuai
+  - Read
+    - User: User dapat melihat berbagai macam dress sesuai kategori yang sudah di fetch dari database
+    - Admin: admin dapat membaca seluruh data kecuali password user yang sudah dienkripsi
+  - Update
+    - User: User dapat mengupdate username dan email dengan cara mengeditnya di halaman profile
+    - Admin: Admin dapat mengupdate list dress dan user
+  - Delete
+    - User: User dapat menghapus dress yang tadinya sudah dimasukkan ke halaman favorit
+    - Admin: admin dapat menghapus list dress
 
 # Hasil Implementasi
 1. Screenshot sistem
