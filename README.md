@@ -10,7 +10,7 @@ PickDress adalah situs yang menyediakan ide kepada pengguna khususnya wanita, ba
 
 # User Analysis
 user story
-1. Sebagai <pengunjung website>, agar dapat melihat rekomendasi kombinasi baju sesuai kategori yang saya inginkan, saya dapat memilih kategori yang saya inginkan pada daftar kategori dan melihat kumpulan kombinasi baju pada kategori yang saya inginkan.
+1. Sebagai [pengunjung website], agar dapat melihat rekomendasi kombinasi baju sesuai kategori yang saya inginkan, saya dapat memilih kategori yang saya inginkan pada daftar kategori dan melihat kumpulan kombinasi baju pada kategori yang saya inginkan.
 2. Sebagai <pengunjung website>, agar dapat melihat rekomendasi kombinasi baju sesuai kategori spesifik yang saya inginkan, saya dapat mengetik kriteria kategori saya pada fitur search untuk menampilkan kombinasi baju pada kategori yang saya inginkan.
 3. Sebagai <pengguna terdaftar>, agar dapat sewaktu-waktu melihat kembali kombinasi baju yang saya sukai, saya dapat menambahkan kombinasi baju yang saya sukai ke dalam daftar favorit.
 4.  Sebagai <pengguna yang belum terdaftar>, agar dapat menggunakan fitur aplikasi secara lebih lengkap, saya dapat membuat akun dengan cara mengetikkan nama email serta password dalam kotak sign up yang sudah disediakan.
