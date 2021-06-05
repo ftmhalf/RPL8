@@ -1,11 +1,10 @@
-# Pickdress
+# PickDress
 
 
-# Anggota Kelompok 8:
+# Anggota Kelompok 8 (Paralel 1):
 1. Fatimah Alfiatul Jannah (G64190014) Back End Developer
 2. Nadira Nazla (G64190035) UI/UX Designer
 3. Fathin Humaira (G64190070) Front End Developer
-Paralel 1
 
 # Asisten Praktikum:
 1. Indah Puspita
@@ -15,7 +14,7 @@ Paralel 1
 PickDress adalah situs yang menyediakan ide kepada pengguna khususnya wanita, baik remaja maupun dewasa mengenai busana apa yang akan dipakai. Terdapat beribu-ribu mix & match busana yang tersedia mulai dari untuk keperluan acara formal maupun non-formal. Situs ini sangat mudah digunakan, pengguna hanya perlu mengunjungi kategori yang sesuai dengan kebutuhan lalu PickDress akan menampilkan berbagai macam ide berpakaian.
 
 # User Analysis
-user story
+User story
 1. Sebagai [pengunjung website], agar dapat melihat rekomendasi kombinasi baju sesuai kategori yang saya inginkan, saya dapat memilih kategori yang saya inginkan pada daftar kategori dan melihat kumpulan kombinasi baju pada kategori yang saya inginkan.
 2. Sebagai [pengunjung website], agar dapat melihat rekomendasi kombinasi baju sesuai kategori spesifik yang saya inginkan, saya dapat mengetik kriteria kategori saya pada fitur search untuk menampilkan kombinasi baju pada kategori yang saya inginkan.
 3. Sebagai [pengguna terdaftar], agar dapat sewaktu-waktu melihat kembali kombinasi baju yang saya sukai, saya dapat menambahkan kombinasi baju yang saya sukai ke dalam daftar favorit.
@@ -48,23 +47,26 @@ user story
 4. Entity Relationship Diagram
 5. Arsitektur Sistem
 6. Fungsi Utama yang Dikembangkan
-    - Pada fitur Home Page terdapat beberapa outfit pilihan yang sedang menjadi tren sehingga user dapat mengetahui outfit apa saja yang sedang menjadi tren.
+    - Pada fitur Home Page, terdapat beberapa outfit pilihan yang sedang menjadi tren sehingga user dapat mengetahui outfit apa saja yang sedang menjadi tren.
+    - Pada fitur kategori, terdapat kategori outfit yang bervariasi. User dapat memilih kategori yang diinginkan pada daftar kategori dan melihat kumpulan kombinasi baju pada kategori yang diinginkan.
     - Pada fitur pencarian, user dapat mencari outfit dengan keyword sesuai dengan outfit yang diinginkan.
     - Pada fitur Favorite, user yang sudah log in dapat menyimpan outfit yang disukai sehingga user dapat melihat lagi outfit yang sudah tersimpan.
     - Pada fitur Delete, user dapat menghapus outfit yang pernah disukai.
+    - Pada fitur Sign Up, user dapat membuat akun agar dapat menggunakan situs seara lebih lengkap dengan mendaftarkan e-mail dan password.
+    - Pada fitur Log In, user yang telah memiliki akun dapat menggunakan situs seara lebih lengkap dengan mendaftarkan e-mail dan password.
 7. Fungsi CRUD
   - Create
-    - User: User membuat akun pickdress dengan menginput username, email, dan password
-    - Admin: admin membuat dress baru dengan menginput judul dress, gambar, deskripsi, kategori, dan keyword yang sesuai
+    - User: User membuat akun PickDress dengan menginput username, email, dan password
+    - Admin: Admin membuat dress baru dengan menginput judul dress, gambar, deskripsi, kategori, dan keyword yang sesuai
   - Read
-    - User: User dapat melihat berbagai macam dress sesuai kategori yang sudah di fetch dari database
-    - Admin: admin dapat membaca seluruh data kecuali password user yang sudah dienkripsi
+    - User: User dapat melihat berbagai macam dress sesuai kategori yang sudah di-fetch dari database
+    - Admin: Admin dapat membaca seluruh data kecuali password user yang sudah dienkripsi
   - Update
     - User: User dapat mengupdate username dan email dengan cara mengeditnya di halaman profile
     - Admin: Admin dapat mengupdate list dress dan user
   - Delete
     - User: User dapat menghapus dress yang tadinya sudah dimasukkan ke halaman favorit
-    - Admin: admin dapat menghapus list dress
+    - Admin: Admin dapat menghapus list dress
 
 # Hasil Implementasi
 1. Screenshot sistem
