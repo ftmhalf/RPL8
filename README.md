@@ -2,9 +2,9 @@
 
 
 # Anggota Kelompok 8:
-1. Fatimah Alfiatul Jannah (G64190014) Backend Developer
-2. Nadira Nazla (isi nim ya gaes aku gatau :")) UI/UX Designer
-3. Fathin Humaira (isi nim ya gaes aku gatau :")) Frontend Developer
+1. Fatimah Alfiatul Jannah (G64190014) Back End Developer
+2. Nadira Nazla (G64190035) UI/UX Designer
+3. Fathin Humaira (G64190070) Front End Developer
 Paralel 1
 
 # Asisten Praktikum:
@@ -48,6 +48,10 @@ user story
 4. Entity Relationship Diagram
 5. Arsitektur Sistem
 6. Fungsi Utama yang Dikembangkan
+    - Pada fitur Home Page terdapat beberapa outfit pilihan yang sedang menjadi tren sehingga user dapat mengetahui outfit apa saja yang sedang menjadi tren.
+    - Pada fitur pencarian, user dapat mencari outfit dengan keyword sesuai dengan outfit yang diinginkan.
+    - Pada fitur Favorite, user yang sudah log in dapat menyimpan outfit yang disukai sehingga user dapat melihat lagi outfit yang sudah tersimpan.
+    - Pada fitur Delete, user dapat menghapus outfit yang pernah disukai.
 7. Fungsi CRUD
   - Create
     - User: User membuat akun pickdress dengan menginput username, email, dan password
