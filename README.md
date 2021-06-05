@@ -40,11 +40,13 @@ User story
   - PHP, Javascript, CSS, HTML, Bootstrap
   - Visual Editing: Figma
 
-# Hasil dan Pemabahasan
+# Hasil dan Pembahasan
 1. Use Case Diagram
 2. Activity Diagram
 3. Class Diagram
 4. Entity Relationship Diagram
+  <br>
+  </br>
 5. Arsitektur Sistem
 6. Fungsi Utama yang Dikembangkan
     - Pada fitur Home Page, terdapat beberapa outfit pilihan yang sedang menjadi tren sehingga user dapat mengetahui outfit apa saja yang sedang menjadi tren.
