@@ -88,7 +88,7 @@
                 
     <div id="content">
         <section id="col">
-            <p>Beach</p>
+            <p>Picnic</p>
             <div class="container1">
             <a href="#" onclick="openp()" >
             <?php
