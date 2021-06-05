@@ -102,17 +102,14 @@ if( !isset($_SESSION["login"]) ) {
 <div class="slideshow-container">
                   
                   <div class="mySlides fade">
-                    <div class="numbertext">1 / 3</div>
                     <img src="dress_images\1621938319_Group 14.svg" style="width:60%">
                   </div>
                       
                   <div class="mySlides fade">
-                    <div class="numbertext">2 / 3</div>
                     <img src="dress_images\1621940951_Group 16.svg" style="width:60%">
                   </div>
                       
                   <div class="mySlides fade">
-                    <div class="numbertext">3 / 3</div>
                     <img src="dress_images\1622703431_Group 17.svg" style="width:60%">
                   </div>
                       
