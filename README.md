@@ -16,12 +16,12 @@ PickDress adalah situs yang menyediakan ide kepada pengguna khususnya wanita, ba
 # User Analysis
 User story
 1. Sebagai [pengunjung website], agar dapat melihat rekomendasi kombinasi baju sesuai kategori yang saya inginkan, saya dapat memilih kategori yang saya inginkan pada daftar kategori dan melihat kumpulan kombinasi baju pada kategori yang saya inginkan.
-2. Sebagai [pengunjung website], agar dapat melihat rekomendasi kombinasi baju sesuai kategori spesifik yang saya inginkan, saya dapat mengetik kriteria kategori saya pada fitur search untuk menampilkan kombinasi baju pada kategori yang saya inginkan.
-3. Sebagai [pengguna terdaftar], agar dapat sewaktu-waktu melihat kembali kombinasi baju yang saya sukai, saya dapat menambahkan kombinasi baju yang saya sukai ke dalam daftar favorit.
-4.  Sebagai [pengguna yang belum terdaftar], agar dapat menggunakan fitur aplikasi secara lebih lengkap, saya dapat membuat akun dengan cara mengetikkan nama email serta password dalam kotak sign up yang sudah disediakan.
-5. Sebagai [pengunjung website], agar dapat melihat rekomendasi baju sesuai kriteria spesifik yang saya inginkan, saya dapat menggunakan filter berdasarkan warna, tema, dan sejenisnya.
-6. Sebagai [pengguna terdaftar], agar dapat membagikan ide outfit yang saya sukai kepada teman saya, saya dapat menggunkan fitur share to friends.
-  
+2. Sebagai [pengguna yang belum terdaftar], agar dapat menggunakan fitur aplikasi secara lebih lengkap, saya dapat membuat akun dengan cara mengetikkan nama email serta password dalam kotak sign up yang sudah disediakan.
+3. Sebagai [pengguna terdaftar], agar dapat menggunakan fitur aplikasi secara lebih lengkap, saya dapat login dengan cara mengetikkan nama email serta password dalam kotak sign up yang sudah disediakan.
+4. Sebagai [pengguna terdaftar], agar dapat sewaktu-waktu melihat kembali kombinasi baju yang saya sukai, saya dapat menambahkan kombinasi baju yang saya sukai ke dalam daftar favorit.
+5. Sebagai [pengguna terdaftar], agar dapat mangatur kombinasi baju yang saya sukai, saya dapat menghapus kombinasi baju yang saya tidak lagi saya sukai dari dalam daftar favorit saya.
+6. Sebagai [pengguna website], agar dapat mengirimkan saran untuk PickDress, saya dapat mengisi survey yang disediakan PickDress.
+
 # Spesifikasi Teknis Lingkungan Pengembangan
 1. Hardware 
   - Processor: Intel Core i5-8250U 1.6GHz 
