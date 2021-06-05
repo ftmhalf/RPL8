@@ -42,6 +42,8 @@ User story
 
 # Hasil dan Pembahasan
 1. Use Case Diagram
+![UseCasePD](https://user-images.githubusercontent.com/55395896/120894098-ef4dec00-c640-11eb-8a92-375cf8db6241.png)
+
 2. Activity Diagram
 3. Class Diagram
 4. Entity Relationship Diagram
