@@ -135,17 +135,17 @@
       <p>How it Works</p>
       <div class="container2">
       <div class="box">
-        <img src="assets/img/step01.png">
+        <img src="assets/img/Step01.png">
         <p>Pick a category you are looking for</p>
       </div>
   
       <div class="box">
-        <img src="assets/img/step02.png">
+        <img src="assets/img/Step02.png">
         <p>PickDress will give you amazing outfit ideas</p>
       </div>
       
       <div class="box">
-        <img src="assets/img/step03.png">
+        <img src="assets/img/Step03.png">
         <p>You can save your favorite outfit by logging in!</p>
       </div>      
       </div>
