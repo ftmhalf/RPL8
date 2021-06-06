@@ -75,8 +75,14 @@ User story
 2. Link Aplikasi
 
 # Testing (test case)
-1. Positive Case
-2. Negative Case
+  #### User Register
+  ![Screenshot (120)](https://user-images.githubusercontent.com/78713826/120924083-1f0dfa00-c6fc-11eb-9ff5-0496092c08f5.png)
+  #### User Login
+  ![Screenshot (119)](https://user-images.githubusercontent.com/78713826/120924053-f554d300-c6fb-11eb-82bd-09845a8ff5a2.png)
+  #### User Favorit
+  ![Screenshot (122)](https://user-images.githubusercontent.com/78713826/120924214-b3785c80-c6fc-11eb-8f28-0fede8fd6a11.png)
+  #### User Profile
+
   
 # Saran untuk Pengembangan Selanjutnya
 1. 
