@@ -104,6 +104,14 @@ User story
 
 # Hasil Implementasi
 1. Screenshot sistem
+![Screenshot (173)](https://user-images.githubusercontent.com/78713826/120932551-8473e200-c720-11eb-98de-abd4c028deff.png)
+![Screenshot (169)](https://user-images.githubusercontent.com/78713826/120932556-8b9af000-c720-11eb-8d69-4069e8c939c6.png)
+![Screenshot (168)](https://user-images.githubusercontent.com/78713826/120932562-8fc70d80-c720-11eb-8f03-8ebade9fb9bd.png)
+![Screenshot (171)](https://user-images.githubusercontent.com/78713826/120932588-a2414700-c720-11eb-96a4-52b1a6603589.png)
+![Screenshot (170)](https://user-images.githubusercontent.com/78713826/120932592-a705fb00-c720-11eb-88e4-d7a81c531a47.png)
+![Screenshot (172)](https://user-images.githubusercontent.com/78713826/120932598-abcaaf00-c720-11eb-9e16-73dddb5861a0.png)
+![Screenshot (174)](https://user-images.githubusercontent.com/78713826/120932569-95245800-c720-11eb-8cea-593f30dc5077.png)
+
 2. Link Aplikasi
     <br>[PickDress](http://pickdress.herokuapp.com)</br>
 
