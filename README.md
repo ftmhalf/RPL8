@@ -53,13 +53,16 @@ User story
 ![login](https://user-images.githubusercontent.com/55395896/120924878-1cad9f00-c700-11eb-9037-b63b4a9a2a3a.png)
 
 ### View Dress
+![view](https://user-images.githubusercontent.com/55395896/120929510-82efed00-c713-11eb-9adf-c3a6791157d1.png)
+
 
 ### Add to Favorite
-![addfav](https://user-images.githubusercontent.com/55395896/120925223-d1948b80-c701-11eb-96f6-9625ca13e991.png)
+![addfav png2](https://user-images.githubusercontent.com/55395896/120929522-8c795500-c713-11eb-9633-56f84e187c67.png)
 
 
 ### Remove from Favorite
-![delfav](https://user-images.githubusercontent.com/55395896/120925228-d8230300-c701-11eb-9fd4-31ad0f5b7b9a.png)
+![delfav1](https://user-images.githubusercontent.com/55395896/120929488-6e135980-c713-11eb-8a42-93344d9f6d83.png)
+
 
 
 ### edit profile
