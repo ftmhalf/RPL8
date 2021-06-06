@@ -1,6 +1,10 @@
 
     <?php
 session_start();
+if( !isset($_SESSION["login"]) ) {
+   header("Location: login.php");
+   exit;
+}
 include("../functions.php");
 if(isset($_GET['action']) && $_GET['action']!="" && $_GET['action']=='delete')
 {
