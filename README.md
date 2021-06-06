@@ -2,7 +2,7 @@
 
 # Paralel 1
 
-# Anggota Kelompok 8 
+# Kelompok 8 
 1. Fatimah Alfiatul Jannah (G64190014) Back End Developer
 2. Nadira Nazla (G64190035) UI/UX Designer
 3. Fathin Humaira (G64190070) Front End Developer
