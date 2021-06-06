@@ -45,6 +45,13 @@ User story
 ![UseCasePD](https://user-images.githubusercontent.com/55395896/120894098-ef4dec00-c640-11eb-8a92-375cf8db6241.png)
 
 2. Activity Diagram
+##Create account
+![signup dg](https://user-images.githubusercontent.com/55395896/120924861-fa1b8600-c6ff-11eb-96c4-f70b76a06c4c.png)
+##Login
+![Uploading login.png…]()
+
+
+
 3. Class Diagram
 4. Entity Relationship Diagram
 5. Arsitektur Sistem
