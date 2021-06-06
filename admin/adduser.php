@@ -13,7 +13,7 @@ $user_password=$_POST['user_password'];
 
 mysqli_query($conn,"insert into users(username,user_email,user_password) values ('$username','$user_email','$user_password')") 
 			or die ("Query 1 is inncorrect........");
-header("location: manage_users.php"); 
+header("location: manageuser.php"); 
 mysqli_close($conn);
 }
 
@@ -36,7 +36,7 @@ mysqli_close($conn);
                       <div class="col-md-3">
                         <div class="form-group bmd-form-group">
                           <label class="bmd-label-floating">First Name</label>
-                          <input type="text" id="first_name" name="username" class="form-control" required>
+                          <input type="text" id="username" name="username" class="form-control" required>
                         </div>
                       </div>
                     </div>
