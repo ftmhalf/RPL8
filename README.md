@@ -53,6 +53,8 @@ User story
 ![login](https://user-images.githubusercontent.com/55395896/120924878-1cad9f00-c700-11eb-9037-b63b4a9a2a3a.png)
 
 ### View Dress
+![view](https://user-images.githubusercontent.com/55395896/120927806-5dabb080-c70c-11eb-8652-bbd42e949868.png)
+
 
 ### Add to Favorite
 ![addfav png2](https://user-images.githubusercontent.com/55395896/120927651-cb0b1180-c70b-11eb-9c20-b94774b7c168.png)
