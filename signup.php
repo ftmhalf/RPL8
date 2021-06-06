@@ -64,7 +64,7 @@ if( isset($_POST["register"]) ) {
                         </svg>
                     </span>
                     <div class="wthree-field">
-                            <input name="user_password" id="user_password" type="Password" placeholder="Password">
+                            <input name="user_password" id="user_password" type="Password" placeholder="Password" required="">
                     </div>
                 </div>
                 <div class="field-group">
@@ -74,7 +74,7 @@ if( isset($_POST["register"]) ) {
                         </svg>
                     </span>
                     <div class="wthree-field">
-                            <input name="user_password2" id="user_password2" type="Password" placeholder="Re-enter password">
+                            <input name="user_password2" id="user_password2" type="Password" placeholder="Re-enter password" required="">
                     </div>
                 </div>
                 <div class="wthree-field">
