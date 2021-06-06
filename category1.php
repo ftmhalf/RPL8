@@ -93,23 +93,26 @@
             <a href="#" onclick="openp()" >
             <?php
             
-              $sql = "select dress_id,dress_image, dress_title, dress_desc, dress_keywords from dress  where  dress_cat=4";
-              $result = $conn->query($sql);
-                while(list($dress_id,$image,$dress_title,$dress_desc,$dress_keywords)=mysqli_fetch_array($result))
+              $sql = "select * from dress  where  dress_cat=4";
+			  $result = mysqli_query($conn, $sql);
+			  
+                
+					if (mysqli_num_rows($result) > 0)
+						while($row = mysqli_fetch_assoc($result)) 
                 {
 
             ?>
             <div class ="cardd">
                    
-            <img class ="modal_image" src="dress_images/<?php echo $image; ?>" width= "300px" alt="<?php echo $dress_desc; ?>">
+            <img class ="modal_image" src="dress_images/<?php echo $row['dress_image'] ?>" width= "300px" alt="<?php echo $row['dress_image'] ?>">
             
              
-            
-            <a href="faves.php?dress_id=<?php echo $dress_id; ?>" class="del">
+           
+            <a href="faves.php?dress_id= <?php echo $row['dress_id'] ?>" class="del">
             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="pink" class="bi bi-heart-fill" viewBox="0 0 18 18">
                         <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
                     
-            <button type="submit" name= "favorite"value="$dress_id"></button> 
+            <button type="submit" name= "favorite" value="$dress_id"></button> 
                     </svg>
                     </a>
               </div>
