@@ -67,6 +67,12 @@ User story
 ### Edit profile
 ![edit](https://user-images.githubusercontent.com/55395896/120929963-68b70e80-c715-11eb-8a46-8ae701328184.png)
 
+### Add dress [Admin]
+![admn_adddress](https://user-images.githubusercontent.com/55395896/120943508-80b08180-c759-11eb-94d3-020b41db2c02.png)
+
+### Manage user [Admin]
+![admn_manageuser](https://user-images.githubusercontent.com/55395896/120943521-8ad28000-c759-11eb-9f11-194a590ab591.png)
+
 
 
 3. Class Diagram
