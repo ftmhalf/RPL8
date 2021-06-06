@@ -47,8 +47,6 @@ User story
 2. Activity Diagram
 3. Class Diagram
 4. Entity Relationship Diagram
-  <br>
-  </br>
 5. Arsitektur Sistem
 6. Fungsi Utama yang Dikembangkan
     - Pada fitur Home Page, terdapat beberapa outfit pilihan yang sedang menjadi tren sehingga user dapat mengetahui outfit apa saja yang sedang menjadi tren.
