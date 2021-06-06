@@ -1,10 +1,6 @@
 
     <?php
 session_start();
-if( !isset($_SESSION["login"]) ) {
-   header("Location: login.php");
-   exit;
-}
 include("../functions.php");
 $dress_id=$_REQUEST['dress_id'];
 
