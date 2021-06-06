@@ -6,16 +6,15 @@ include "sidenav.php";
 include "topheader.php";
 if(isset($_POST['btn_save']))
 {
-$first_name=$_POST['first_name'];
-$last_name=$_POST['last_name'];
-$email=$_POST['email'];
-$user_password=$_POST['password'];
+$username=$_POST['username'];
+$user_email=$_POST['user_email'];
+$user_password=$_POST['user_password'];
 
 
-mysqli_query($con,"insert into user_info(first_name, last_name,email,password) values ('$first_name','$last_name','$email','$user_password')") 
+mysqli_query($conn,"insert into users(username,user_email,user_password) values ('$username','$user_email','$user_password')") 
 			or die ("Query 1 is inncorrect........");
 header("location: manage_users.php"); 
-mysqli_close($con);
+mysqli_close($conn);
 }
 
 
@@ -37,13 +36,7 @@ mysqli_close($con);
                       <div class="col-md-3">
                         <div class="form-group bmd-form-group">
                           <label class="bmd-label-floating">First Name</label>
-                          <input type="text" id="first_name" name="first_name" class="form-control" required>
-                        </div>
-                      </div>
-                      <div class="col-md-4">
-                        <div class="form-group bmd-form-group">
-                          <label class="bmd-label-floating">Last Name</label>
-                          <input type="text" name="last_name" id="last_name"  class="form-control" required>
+                          <input type="text" id="first_name" name="username" class="form-control" required>
                         </div>
                       </div>
                     </div>
@@ -51,13 +44,13 @@ mysqli_close($con);
                       <div class="col-md-6">
                         <div class="form-group bmd-form-group">
                           <label class="bmd-label-floating">Email</label>
-                          <input type="email" name="email" id="email" class="form-control" required>
+                          <input type="email" name="user_email" id="email" class="form-control" required>
                         </div>
                       </div>
                       <div class="col-md-6">
                         <div class="form-group bmd-form-group">
                           <label class="bmd-label-floating">Password</label>
-                          <input type="password" id="password" name="password" class="form-control" required>
+                          <input type="password" id="password" name="user_password" class="form-control" required>
                         </div>
                       </div>
                     </div>
