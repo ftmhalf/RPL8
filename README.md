@@ -62,6 +62,10 @@ User story
 
 
 3. Class Diagram
+
+![class](https://user-images.githubusercontent.com/55395896/120925164-85494b80-c701-11eb-9baf-50252a8b235e.png)
+
+
 4. Entity Relationship Diagram
 5. Arsitektur Sistem
 6. Fungsi Utama yang Dikembangkan
