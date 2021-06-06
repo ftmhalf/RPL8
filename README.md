@@ -1,7 +1,8 @@
-# PickDress
+![pickdress](https://user-images.githubusercontent.com/55394643/120928939-fcd2a700-c710-11eb-9eb4-e8e123b3edac.png)
 
+# Paralel 1
 
-# Anggota Kelompok 8 (Paralel 1):
+# Anggota Kelompok 8 
 1. Fatimah Alfiatul Jannah (G64190014) Back End Developer
 2. Nadira Nazla (G64190035) UI/UX Designer
 3. Fathin Humaira (G64190070) Front End Developer
