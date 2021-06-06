@@ -53,15 +53,13 @@ User story
 ![login](https://user-images.githubusercontent.com/55395896/120924878-1cad9f00-c700-11eb-9037-b63b4a9a2a3a.png)
 
 ### View Dress
-![view](https://user-images.githubusercontent.com/55395896/120927806-5dabb080-c70c-11eb-8652-bbd42e949868.png)
-
 
 ### Add to Favorite
-![addfav png2](https://user-images.githubusercontent.com/55395896/120927651-cb0b1180-c70b-11eb-9c20-b94774b7c168.png)
+![addfav](https://user-images.githubusercontent.com/55395896/120925223-d1948b80-c701-11eb-96f6-9625ca13e991.png)
 
 
 ### Remove from Favorite
-![delfav1](https://user-images.githubusercontent.com/55395896/120928094-77012c80-c70d-11eb-9d37-92aa5397930f.png)
+![delfav](https://user-images.githubusercontent.com/55395896/120925228-d8230300-c701-11eb-9fd4-31ad0f5b7b9a.png)
 
 
 ### edit profile
@@ -118,4 +116,8 @@ User story
 
   
 # Saran untuk Pengembangan Selanjutnya
-1. 
+Situs yang kami buat masih jauh dari sempurna dikarenakan waktu dan keterbatasan di sana-sini. Oleh karena itu, selanjutnya ada beberapa fitur yang kami harap dapat kami terapkan ke dalam situs kami, yaitu :
+1. User dapat melakukan mix and match sesuai keinginan. Dengan fitur ini, user dapat mengganti set outfit yang ada dengan selera user masing-masing mulai dari aksesoris rambut hingga alas kaki. Bahkan user dapat mengunggah outfit yang dimilikinya untuk kemudian dipadukan dalam fitur ini.
+2. Fitur forum yang dapat digunakan oleh user untuk berdiskusi terkait fashion, baik berupa saran, kritik, ataupun rekomendasi.
+3. Fitur most favorite outfits yang akan menampilkan beberapa set outfit yang paling banyak disukai oleh user sehingga user lain dapat menjadikan set tersebut sebagai bahan rekomendasi.
+4. Fitur share yang memungkinkan user untuk membagikan outfit yang diinginkan kepada orang lain.
