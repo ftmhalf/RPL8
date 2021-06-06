@@ -61,7 +61,7 @@ User story
 
 
 ### Remove from Favorite
-![delfav](https://user-images.githubusercontent.com/55395896/120925228-d8230300-c701-11eb-9fd4-31ad0f5b7b9a.png)
+![delfav1](https://user-images.githubusercontent.com/55395896/120928094-77012c80-c70d-11eb-9d37-92aa5397930f.png)
 
 
 ### edit profile
