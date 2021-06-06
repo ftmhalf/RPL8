@@ -55,7 +55,7 @@ User story
 ### View Dress
 
 ### Add to Favorite
-![addfav](https://user-images.githubusercontent.com/55395896/120925223-d1948b80-c701-11eb-96f6-9625ca13e991.png)
+![addfav png2](https://user-images.githubusercontent.com/55395896/120927651-cb0b1180-c70b-11eb-9c20-b94774b7c168.png)
 
 
 ### Remove from Favorite
