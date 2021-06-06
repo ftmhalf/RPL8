@@ -119,7 +119,21 @@ User story
 
   #### User Profile
   ![Screenshot (146)](https://user-images.githubusercontent.com/78713826/120929639-f98cea80-c713-11eb-950c-05cb6396ffe5.png)
+  
+  #### Admin Add Dress
+  ![Screenshot (158)](https://user-images.githubusercontent.com/78713826/120931790-5b058700-c71d-11eb-8e8d-67a4e8196d18.png)
 
+  
+  #### Admin Dress List
+  ![Screenshot (159)](https://user-images.githubusercontent.com/78713826/120931796-6062d180-c71d-11eb-9390-c015988d2af9.png)
+  ![Screenshot (160)](https://user-images.githubusercontent.com/78713826/120931799-65c01c00-c71d-11eb-9b88-be2fb4d1ca7b.png)
+  
+  #### Admin Add User
+  ![Screenshot (166)](https://user-images.githubusercontent.com/78713826/120931979-23e3a580-c71e-11eb-8b2b-f4b312e4b0d8.png)
+
+
+  #### Admin Manage User
+  ![Screenshot (165)](https://user-images.githubusercontent.com/78713826/120931989-2c3be080-c71e-11eb-9507-02187232efd2.png)
 
   
 # Saran untuk Pengembangan Selanjutnya
