@@ -82,6 +82,7 @@ User story
   #### User Favorit
   ![Screenshot (122)](https://user-images.githubusercontent.com/78713826/120924214-b3785c80-c6fc-11eb-8f28-0fede8fd6a11.png)
   #### User Profile
+  ![Screenshot (124)](https://user-images.githubusercontent.com/78713826/120924512-4b2a7a80-c6fe-11eb-8bf4-9b65ea90dc37.png)
 
   
 # Saran untuk Pengembangan Selanjutnya
