@@ -1,7 +1,7 @@
 <?php
 session_start();
 require 'functions.php';
-if(!isset($_SESSION['login'])){
+if(!isset($_SESSION['user_id'])){
     
 header('location:login.php');
 }else{
