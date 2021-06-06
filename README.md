@@ -109,13 +109,17 @@ User story
 
 # Testing (test case)
   #### User Register
-  ![Screenshot (120)](https://user-images.githubusercontent.com/78713826/120924083-1f0dfa00-c6fc-11eb-9ff5-0496092c08f5.png)
+  ![Screenshot (144)](https://user-images.githubusercontent.com/78713826/120929624-ee39bf00-c713-11eb-87c6-88a8a9af39f8.png)
+
   #### User Login
-  ![Screenshot (119)](https://user-images.githubusercontent.com/78713826/120924053-f554d300-c6fb-11eb-82bd-09845a8ff5a2.png)
+  ![Screenshot (143)](https://user-images.githubusercontent.com/78713826/120929617-e843de00-c713-11eb-88d9-b062b7962066.png)
+
   #### User Favorit
-  ![Screenshot (122)](https://user-images.githubusercontent.com/78713826/120924214-b3785c80-c6fc-11eb-8f28-0fede8fd6a11.png)
+  ![Screenshot (145)](https://user-images.githubusercontent.com/78713826/120929631-f3970980-c713-11eb-995e-0ad2f9c29313.png)
+
   #### User Profile
-  ![Screenshot (124)](https://user-images.githubusercontent.com/78713826/120924512-4b2a7a80-c6fe-11eb-8bf4-9b65ea90dc37.png)
+  ![Screenshot (146)](https://user-images.githubusercontent.com/78713826/120929639-f98cea80-c713-11eb-950c-05cb6396ffe5.png)
+
 
   
 # Saran untuk Pengembangan Selanjutnya
