@@ -120,3 +120,4 @@ Situs yang kami buat masih jauh dari sempurna dikarenakan waktu dan keterbatasan
 2. Fitur forum yang dapat digunakan oleh user untuk berdiskusi terkait fashion, baik berupa saran, kritik, ataupun rekomendasi.
 3. Fitur most favorite outfits yang akan menampilkan beberapa set outfit yang paling banyak disukai oleh user sehingga user lain dapat menjadikan set tersebut sebagai bahan rekomendasi.
 4. Fitur share yang memungkinkan user untuk membagikan outfit yang diinginkan kepada orang lain.
+5. Fitur search & filter dapat digunakan user untuk mencari outfit sesuai dengan kata kunci yang dimasukkan. User bahkan dapat menggunakan filter untuk menyaring outfit dengan kriteria yng diinginkan.
