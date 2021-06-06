@@ -56,7 +56,7 @@
             </a>
           </li>
           <li class="nav-item ">
-            <a class="nav-link" href="logout.php">
+            <a class="nav-link" href="../login.php">
               <i class="material-icons">logout</i>
               <p>Logout</p>
             </a>
