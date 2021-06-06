@@ -43,6 +43,7 @@ if( isset($_POST["login"]) ) {
 
         }else{
             echo "<span style='color:red;'>Please register before login..!</span>";
+            echo "<script> location.href='login.php'; </script>";
             exit();
         }
 
