@@ -97,7 +97,7 @@ if( isset($_POST["login"]) ) {
                         </svg>
                     </span>
                     <div class="wthree-field">
-                        <input name="user_password" id="myInput" type="Password" placeholder="Password">
+                        <input name="user_password" id="myInput" type="Password" placeholder="Password" required="">
                     </div>    
                 </div>
                     <div class="wthree-field">
