@@ -75,7 +75,8 @@ User story
 ![Untitled Diagram-Page-1](https://user-images.githubusercontent.com/55394643/120926977-6484f400-c709-11eb-960d-9d63e4ebcb0d.jpg)
 
 6. Arsitektur Sistem
-![Untitled Diagram-Page-2](https://user-images.githubusercontent.com/55394643/120926988-6bac0200-c709-11eb-9187-b9853c0ce914.jpg)
+![Untitled Diagram-Page-2 (1)](https://user-images.githubusercontent.com/55394643/120927179-23d9aa80-c70a-11eb-8b31-a85319675911.jpg)
+
 
 8. Fungsi Utama yang Dikembangkan
     - Pada fitur Home Page, terdapat beberapa outfit pilihan yang sedang menjadi tren sehingga user dapat mengetahui outfit apa saja yang sedang menjadi tren.
