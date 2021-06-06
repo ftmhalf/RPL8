@@ -103,6 +103,7 @@ User story
 # Hasil Implementasi
 1. Screenshot sistem
 2. Link Aplikasi
+    [PickDress](http://pickdress.herokuapp.com)
 
 # Testing (test case)
   #### User Register
