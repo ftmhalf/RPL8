@@ -1,4 +1,4 @@
-<img src=![pickdress](https://user-images.githubusercontent.com/55394643/120928939-fcd2a700-c710-11eb-9eb4-e8e123b3edac.png) align="middle">
+<img src="![pickdress](https://user-images.githubusercontent.com/55394643/120928939-fcd2a700-c710-11eb-9eb4-e8e123b3edac.png)" align="middle">
 
 # Paralel 1
 
