@@ -43,7 +43,7 @@ User story
 
 # Hasil dan Pembahasan
 1. Use Case Diagram
-<br>![usecase2](https://user-images.githubusercontent.com/55395896/120927008-7bc3e180-c709-11eb-87f0-c600006645ce.png)</br>
+<br>![usecase3](https://user-images.githubusercontent.com/55395896/120943074-ec451f80-c756-11eb-82c3-4bd6609eb70a.png)</br>
 
 2. Activity Diagram
 ### Create account
