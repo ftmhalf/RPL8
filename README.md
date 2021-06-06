@@ -64,7 +64,7 @@ User story
 ### Remove from Favorite
 ![delfav1](https://user-images.githubusercontent.com/55395896/120929488-6e135980-c713-11eb-8a42-93344d9f6d83.png)
 
-### edit profile
+### Edit profile
 ![edit](https://user-images.githubusercontent.com/55395896/120929963-68b70e80-c715-11eb-8a46-8ae701328184.png)
 
 
@@ -128,4 +128,4 @@ Situs yang kami buat masih jauh dari sempurna dikarenakan waktu dan keterbatasan
 2. Fitur forum yang dapat digunakan oleh user untuk berdiskusi terkait fashion, baik berupa saran, kritik, ataupun rekomendasi.
 3. Fitur most favorite outfits yang akan menampilkan beberapa set outfit yang paling banyak disukai oleh user sehingga user lain dapat menjadikan set tersebut sebagai bahan rekomendasi.
 4. Fitur share yang memungkinkan user untuk membagikan outfit yang diinginkan kepada orang lain.
-5. Fitur search & filter dapat digunakan user untuk mencari outfit sesuai dengan kata kunci yang dimasukkan. User bahkan dapat menggunakan filter untuk menyaring outfit dengan kriteria yng diinginkan.
+5. Fitur search & filter dapat digunakan user untuk mencari outfit sesuai dengan kata kunci yang dimasukkan. User bahkan dapat menggunakan filter untuk menyaring outfit dengan kriteria yang diinginkan.
