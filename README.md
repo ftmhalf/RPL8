@@ -44,8 +44,9 @@ User story
 1. Use Case Diagram
 <br>![usecase2](https://user-images.githubusercontent.com/55395896/120927008-7bc3e180-c709-11eb-87f0-c600006645ce.png)</br>
 
-
+<br>
 2. Activity Diagram
+</br>
 ### Create account
 ![signup dg](https://user-images.githubusercontent.com/55395896/120924861-fa1b8600-c6ff-11eb-96c4-f70b76a06c4c.png)
 
