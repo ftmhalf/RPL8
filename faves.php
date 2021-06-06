@@ -15,12 +15,14 @@ header('location:login.php');
     echo 'product already exist in favorite';
     header('location:fav.php');
     
- }else{ 
-	if(mysqli_query($conn, "INSERT INTO fav (p_id, c_id) VALUES ('$p_id', '$c_id')"))
- 	header("location: fav.php");
+ }else{
+    $insertfavorite = "INSERT INTO fav (p_id, c_id) VALUES ('$p_id', '$c_id')";   
+	if(mysqli_query($conn, $insertfavorite)){
+        header('location:fav.php');
 
     }
 
  }
+}
 
 ?>
