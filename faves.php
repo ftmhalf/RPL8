@@ -16,14 +16,11 @@ header('location:login.php');
     header('location:fav.php');
     
  }else{ 
-	if(mysqli_query($conn, "INSERT INTO fav (p_id, c_id) VALUES ('$p_id', '$c_id')")){
- 	header("location: fav.php?success=1");
-	}
-	mysqli_close($conn)
+	if(mysqli_query($conn, "INSERT INTO fav (p_id, c_id) VALUES ('$p_id', '$c_id')"))
+ 	header("location: fav.php");
 
     }
 
  }
-}
 
 ?>
