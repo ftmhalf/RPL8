@@ -71,8 +71,12 @@ User story
 
 
 4. Entity Relationship Diagram
-5. Arsitektur Sistem
-6. Fungsi Utama yang Dikembangkan
+![Untitled Diagram-Page-1](https://user-images.githubusercontent.com/55394643/120926977-6484f400-c709-11eb-960d-9d63e4ebcb0d.jpg)
+
+6. Arsitektur Sistem
+![Untitled Diagram-Page-2](https://user-images.githubusercontent.com/55394643/120926988-6bac0200-c709-11eb-9187-b9853c0ce914.jpg)
+
+8. Fungsi Utama yang Dikembangkan
     - Pada fitur Home Page, terdapat beberapa outfit pilihan yang sedang menjadi tren sehingga user dapat mengetahui outfit apa saja yang sedang menjadi tren.
     - Pada fitur kategori, terdapat kategori outfit yang bervariasi. User dapat memilih kategori yang diinginkan pada daftar kategori dan melihat kumpulan kombinasi baju pada kategori yang diinginkan.
     - Pada fitur pencarian, user dapat mencari outfit dengan keyword sesuai dengan outfit yang diinginkan.
@@ -80,7 +84,7 @@ User story
     - Pada fitur Delete, user dapat menghapus outfit yang pernah disukai.
     - Pada fitur Sign Up, user dapat membuat akun agar dapat menggunakan situs seara lebih lengkap dengan mendaftarkan e-mail dan password.
     - Pada fitur Log In, user yang telah memiliki akun dapat menggunakan situs seara lebih lengkap dengan mendaftarkan e-mail dan password.
-7. Fungsi CRUD
+9. Fungsi CRUD
   - Create
     - User: User membuat akun PickDress dengan menginput username, email, dan password
     - Admin: Admin membuat dress baru dengan menginput judul dress, gambar, deskripsi, kategori, dan keyword yang sesuai
