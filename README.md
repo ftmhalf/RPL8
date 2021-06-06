@@ -47,8 +47,10 @@ User story
 2. Activity Diagram
 ##Create account
 ![signup dg](https://user-images.githubusercontent.com/55395896/120924861-fa1b8600-c6ff-11eb-96c4-f70b76a06c4c.png)
+
 ##Login
-![Uploading login.png…]()
+![login](https://user-images.githubusercontent.com/55395896/120924878-1cad9f00-c700-11eb-9037-b63b4a9a2a3a.png)
+
 
 
 
