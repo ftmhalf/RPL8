@@ -1,178 +1,219 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="assets/css/main.css">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
-    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="assets/css/main.css">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>PickDress | Home</title>
-  </head>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 
-  <body>
-    <header>
-      <div class="l">
-        <button class="openbtn" onclick="openNav()">☰</button>
-        <a href="home_default.html" class="logo">
-            <div class=pickdress>
-                <image src = assets/img/pickdress.png height="30px"></image>
-            </div>
-        </a>
-    </div>
-      <div class="search-icon">
-        <input class="search" type="search" placeholder="Search Outfit..">
-        <div class="icon">
-          <span class="input-text-search"></span>
-          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
-            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
-          </svg>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>PickDress | Home</title>
+</head>
+
+<body>
+  <header>
+    <div class="l">
+      <button class="openbtn" onclick="openNav()">
+        <svg viewBox="0 0 100 80" width="28" height="28">
+          <rect width="100" height="10"></rect>
+          <rect y="30" width="100" height="10"></rect>
+          <rect y="60" width="100" height="10"></rect>
+        </svg>
+      </button>
+      <a href="home_registered.php" class="logo">
+        <div class=pickdress>
+          <image src=assets/img/pickdress.png height="30px"></image>
         </div>
-      </div>
-      <div class="log">
-          <button><a href="login.html">Log in</a></button>
-          <p>  or  </p>
-          <button><a href="signup.html">Sign Up</a></button>
-      </div>
-    </header>
+      </a>
+    </div>
+    <div class="search-icon">
+      <form>
+        <input type="text" placeholder="Search Outfit.." name="search">
+        <button type="submit">
+          <i class="fa fa-search"></i>
+        </button>
+      </form>
+    </div>
+    <div class="log">
+      <a class="login" href="login.html">Log in</a>
+      <a class="signup" href="signup.html">Sign Up</a>
+    </div>
+  </header>
 
-    <!--Sidebar-->
-    <div id="mySidebar" class="sidebar">
-      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-      <a href="home_default.html#about">About Us</a>
-      <a href="#" class="collapsible">Categories</a>
-      <div class="subitems">
+  <!--Sidebar-->
+  <div id="mySidebar" class="sidebar">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+    <ul>
+      <li class="no">
+        <a href="#" class="collapsible">Categories</a>
+        <div class="subitems">
           <ul>
-              <a href="category1.html">Kuliah</a>
-              <a href="#">Category2</a>
-              <a href="#">Category3</a>
-              <a href="#">Category4</a>
+            <li><a href="category1.html">College</a></li>
+            <li><a href="category1.html">Work</a></li>
+            <li><a href="category1.html">Beach</a></li>
+            <li><a href="category1.html">Daily</a></li>
+            <li><a href="category1.html">Party</a></li>
           </ul>
-      </div>            
-      <a href="favorit.html">Favorites</a>
-    </div>
+        </div>
+      </li>
+      <li><a href="fav.html">Favorites</a></li>
+      <li><a href="profile.html">Profile</a></li>
+      <li><a href="aboutus.html">About Us</a></li>
+    </ul>
+  </div>
 
-    <!--Section main-->
-    <section class="pt-8 py-lg-0" id="main">
-      <div class="container-xxl">
-        <div class="row align-items-center min-vh-lg-100">
-          <div class="col-lg order-lg-1 text-center">
+  <!--Section main-->
+  <section class="pt-8 py-lg-0" id="main">
+    <div class="container-xxl">
+      <div class="row align-items-center min-vh-lg-100">
+        <div class="col-lg order-lg-1 text-center">
 
-<!--Slideshow-->
-            <div class="slideshow-container">
-                  
-              <div class="mySlides fade">
-                <div class="numbertext">1 / 3</div>
-                <img src="assets/img/Set 1.png" style="width:100%">
-                <div class="text">Caption Text</div>
-              </div>
-                  
-              <div class="mySlides fade">
-                <div class="numbertext">2 / 3</div>
-                <img src="assets/img/Set 1.png" style="width:100%">
-                <div class="text">Caption Two</div>
-              </div>
-                  
-              <div class="mySlides fade">
-                <div class="numbertext">3 / 3</div>
-                <img src="assets/img/Set 1.png" style="width:100%">
-                <div class="text">Caption Three</div>
-              </div>
-                  
+          <!--Slideshow-->
+          <div class="slideshow-container">
+
+            <div class="mySlides fade">
+              <img src="assets/img/Set2.png" style="width:100%">
             </div>
-            <br>
-                  
-            <div style="text-align:center">
-              <span class="dot"></span> 
-              <span class="dot"></span> 
-              <span class="dot"></span> 
+
+            <div class="mySlides fade">
+              <img src="assets/img/Set3.png" style="width:100%">
             </div>
+
+            <div class="mySlides fade">
+              <img src="assets/img/Set4.png" style="width:100%">
+            </div>
+
           </div>
-          <div class="col-lg mt-5 mt-lg-0">
-            <h1>Get idea of your Look.<br>
-                More choice to pick!
-            </h1>
+          <br>
+
+          <div style="text-align:center">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
           </div>
         </div>
-      </div><!-- end of .container-->
-    </section>
-      
-    <!-- <div class="row align-items-center justify-content-xl-between py-5 border-klean">-->      
-    <section  id="category">
-      <div class="container">
-        <div class="col-auto col-md-4 col-lg-auto my-3 text-xl-start"><button class="button" ><a href="category1.html">Kuliah</a></button></div>
-        <div class="col-auto col-md-4 col-lg-auto my-3 text-xl-start"><button class="button"><a href="#">Kerja</a></button></div>
-        <div class="col-auto col-md-4 col-lg-auto my-3 text-xl-start"><button class="button"><a href="#">Pesta</a></button></div>
-        <div class="col-auto col-md-4 col-lg-auto my-3 text-xl-start"><button class="button"><a href="#">Liburan</a></button></div>
-        <div class="col-auto col-md-4 col-lg-auto my-3 text-xl-start"><button class="button"><a href="#">Daily</a></button></div>
-      </div><!-- end of .container-->
-    </section>
+        <div class="col-lg mt-5 mt-lg-0">
+          <h1>"Style is something each of us already has. All we need to do is find it."
+            <br>
+            -Diane von Furstenberg
+          </h1>
+        </div>
+      </div>
+    </div>
+    <!-- end of .container-->
+  </section>
+
+  <section id="category">
+    <p>Categories</p>
+    <div class="container">
+      <div class="col-auto col-md-4 col-lg-auto my-3 text-xl-start"><button class="button"><a
+            href="category1.php">College</a></button></div>
+      <div class="col-auto col-md-4 col-lg-auto my-3 text-xl-start"><button class="button"><a href="#">Work</a></button>
+      </div>
+      <div class="col-auto col-md-4 col-lg-auto my-3 text-xl-start"><button class="button"><a
+            href="#">Beach</a></button></div>
+      <div class="col-auto col-md-4 col-lg-auto my-3 text-xl-start"><button class="button"><a
+            href="#">Party</a></button></div>
+      <div class="col-auto col-md-4 col-lg-auto my-3 text-xl-start"><button class="button"><a
+            href="#">Daily</a></button></div>
+    </div><!-- end of .container-->
+  </section>
+
+  <!--Section How It Works-->
+  <section id="how">
+    <p>How it Works</p>
+    <div class="container2">
+      <div class="box">
+        <img src="assets/img/step01.png">
+        <p>Pick a category you are looking for</p>
+      </div>
+
+      <div class="box">
+        <img src="assets/img/step02.png">
+        <p>PickDress will give you amazing outfit ideas</p>
+      </div>
+
+      <div class="box">
+        <img src="assets/img/step03.png">
+        <p>You can save your favorite outfit by logging in!</p>
+      </div>
+    </div>
+  </section>
+
+  <!--Section About Us-->
+  <section id="help">
+    <h1>Help Us Improve</h1>
+    <p>Take a brief survey about your visit</p>
+    <a href="https://forms.gle/QWhQ61ZKkd98fLTYA"> Begin Survey</a>
+  </section>
 
 
-    <!--Section About Us-->
-    <section id="about">
-      <h1>About Us</h1>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni repellat aliquid ut veniam quidem. Delectus temporibus vel, facilis ut expedita voluptas doloremque accusamus aspernatur, odio nostrum officiis veniam praesentium, tempora beatae quae magni perspiciatis! Saepe molestias neque harum sint dolores officia nulla tempora reprehenderit sapiente. Incidunt ducimus eum deserunt eligendi quos? Facere facilis, eius fugit beatae animi atque quam, dolore exercitationem harum nisi non ea quaerat. Magni sed fuga quaerat itaque suscipit accusantium perspiciatis placeat, quo, dolore laboriosam aspernatur officiis similique aliquid ab voluptatum molestiae necessitatibus impedit iure. Culpa ipsum nesciunt necessitatibus voluptatem blanditiis optio molestiae! Et officiis placeat hic suscipit consequuntur illo ea quisquam omnis, non, aperiam reprehenderit dicta dolor ipsam. Officia quos ipsa nihil natus ab exercitationem tempora eveniet magnam! Sapiente amet, optio debitis, iusto nihil sint qui minus adipisci provident est dolores iste perferendis? Consequuntur molestias dolorum sequi voluptas tempora amet, quod, cupiditate cum harum velit ad obcaecati nostrum aspernatur earum officiis perferendis non? Dignissimos iusto voluptates autem sequi perferendis cupiditate iste tempora saepe, beatae nihil eius nisi quibusdam odit nulla fugit quo qui suscipit? Architecto minima deserunt velit quis et temporibus rerum consectetur, explicabo itaque nihil aperiam a fugiat accusamus, similique eos dolores, voluptas iure eum!
-    </section>
-   
-   
-   
-   <!--Js slider-->
-   <script>
-      var slideIndex = 0;
-      showSlides();
-      
-      function showSlides() {
-        var i;
-        var slides = document.getElementsByClassName("mySlides");
-        var dots = document.getElementsByClassName("dot");
-        for (i = 0; i < slides.length; i++) {
-          slides[i].style.display = "none";  
-        }
-        slideIndex++;
-        if (slideIndex > slides.length) {slideIndex = 1}    
-        for (i = 0; i < dots.length; i++) {
-          dots[i].className = dots[i].className.replace(" active", "");
-        }
-        slides[slideIndex-1].style.display = "block";  
-        dots[slideIndex-1].className += " active";
-        setTimeout(showSlides, 2000); // Change image every 2 seconds
-      }
-    </script>
+  <!--Js slider-->
+  <script>
+    var slideIndex = 0;
+    showSlides();
 
-    <!--Js sidebar-->
-    <script>
-      function openNav() {
-        document.getElementById("mySidebar").style.width = "250px";
-        document.getElementById("main").style.marginLeft = "250px";
-      }
-                
-      function closeNav() {
-        document.getElementById("mySidebar").style.width = "0";
-        document.getElementById("main").style.marginLeft= "0";
-      }
-    </script>
-    
-    <script>
-      var coll = document.getElementsByClassName("collapsible");
+    function showSlides() {
       var i;
-      
-      for (i = 0; i < coll.length; i++) {
-        coll[i].addEventListener("click", function() {
-          this.classList.toggle("active");
-          var content = this.nextElementSibling;
-          if (content.style.maxHeight){
-            content.style.maxHeight = null;
-          } else {
-            content.style.maxHeight = content.scrollHeight + "px";
-          } 
-        });
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
       }
-      </script>
-  </body>
+      slideIndex++;
+      if (slideIndex > slides.length) {
+        slideIndex = 1
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex - 1].style.display = "block";
+      dots[slideIndex - 1].className += " active";
+      setTimeout(showSlides, 3000); // Change image every 2 seconds
+    }
+  </script>
+
+  <!--Js sidebar-->
+  <script>
+    function openNav() {
+      document.getElementById("mySidebar").style.width = "250px";
+      document.getElementById("main").style.marginLeft = "250px";
+      document.getElementById("category").style.marginLeft = "250px";
+      document.getElementById("about").style.marginLeft = "250px";
+    }
+
+    function closeNav() {
+      document.getElementById("mySidebar").style.width = "0";
+      document.getElementById("main").style.marginLeft = "0";
+      document.getElementById("category").style.marginLeft = "0";
+      document.getElementById("about").style.marginLeft = "0";
+    }
+  </script>
+
+
+  <script>
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function () {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.maxHeight) {
+          content.style.maxHeight = null;
+        } else {
+          content.style.maxHeight = content.scrollHeight + "px";
+        }
+      });
+    }
+  </script>
+</body>
+
 </html>
