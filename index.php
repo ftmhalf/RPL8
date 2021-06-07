@@ -112,17 +112,15 @@
      
     <section  id="category">
     <p>Categories</p>
-      <div class="container">
+      <div class="container jc">
         <div class="col-auto col-md-4 col-lg-auto my-3 text-xl-start"><button class="button" ><a href="category1.php"><img src= "assets/img/Group 4.svg"></a></button></div>
         <div class="col-auto col-md-4 col-lg-auto my-3 text-xl-start"><button class="button"><a href="category2.php"><img src= "assets/img/Group 5.svg"></a></button></div>
         <div class="col-auto col-md-4 col-lg-auto my-3 text-xl-start"><button class="button"><a href="category3.php"><img src= "assets/img/Group 6.svg"></a></button></div>
         <div class="col-auto col-md-4 col-lg-auto my-3 text-xl-start"><button class="button"><a href="category4.php"><img src= "assets/img/Group 7.svg"></a></button></div>
+        <div class="col-auto col-md-4 col-lg-auto my-3 text-xl-start"><button class="button"><a href="category5.php"><img src= "assets/img/Group 8.svg"></a></button></div>
+        <div class="col-auto col-md-4 col-lg-auto my-3 text-xl-start"><button class="button"><a href="category6.php"><img src= "assets/img/Group 9.svg"></a></button></div>
         
       </div><!-- end of .container-->
-      <div class="container">
-      <div class="col-auto col-md-4 col-lg-auto my-3 text-xl-start"><button class="button"><a href="category5.php"><img src= "assets/img/Group 8.svg"></a></button></div>
-      <div class="col-auto col-md-4 col-lg-auto my-3 text-xl-start"><button class="button"><a href="category6.php"><img src= "assets/img/Group 9.svg"></a></button></div>
-    </div>
     </section>
 
 
