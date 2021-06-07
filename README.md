@@ -102,10 +102,10 @@ PickDress adalah situs yang menyediakan ide kepada pengguna khususnya wanita, ba
     - Admin: Admin dapat membaca seluruh data kecuali password user yang sudah dienkripsi
   - Update
     - User: User dapat mengupdate username dan email dengan cara mengeditnya di halaman profile
-    - Admin: Admin dapat mengupdate list dress dan user
+    - Admin: Admin dapat mengupdate list dress
   - Delete
     - User: User dapat menghapus dress yang tadinya sudah dimasukkan ke halaman favorit
-    - Admin: Admin dapat menghapus list dress
+    - Admin: Admin dapat menghapus list dress dan user
 
 # Hasil Implementasi
 ### 1. Screenshot sistem
