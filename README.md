@@ -118,7 +118,7 @@ PickDress adalah situs yang menyediakan ide kepada pengguna khususnya wanita, ba
 ![Screenshot (174)](https://user-images.githubusercontent.com/78713826/120932569-95245800-c720-11eb-8cea-593f30dc5077.png)
 
 ### 2. Link Aplikasi
-   <br>[PickDress](http://pickdress.herokuapp.com)</br>
+   [PickDress](http://pickdress.herokuapp.com)
 
 # Testing (test case)
   #### User Register
