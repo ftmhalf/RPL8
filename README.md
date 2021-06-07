@@ -44,7 +44,7 @@ PickDress adalah situs yang menyediakan ide kepada pengguna khususnya wanita, ba
 # Hasil dan Pembahasan
 
 ### 1. Use Case Diagram
-<br>![usecase3](https://user-images.githubusercontent.com/55395896/120943074-ec451f80-c756-11eb-82c3-4bd6609eb70a.png)</br>
+<br>![usecase4](https://user-images.githubusercontent.com/55395896/120944663-ea338e80-c75f-11eb-9140-3016c60171a3.png)</br>
 
 ### 2. Activity Diagram
 #### Create account
