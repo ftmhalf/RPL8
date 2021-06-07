@@ -15,7 +15,7 @@
 PickDress adalah situs yang menyediakan ide kepada pengguna khususnya wanita, baik remaja maupun dewasa mengenai busana apa yang akan dipakai. Terdapat beribu-ribu mix & match busana yang tersedia mulai dari untuk keperluan acara formal maupun non-formal. Situs ini sangat mudah digunakan, pengguna hanya perlu mengunjungi kategori yang sesuai dengan kebutuhan lalu PickDress akan menampilkan berbagai macam ide berpakaian.
 
 # User Analysis
-User story
+### User story
 1. Sebagai [pengunjung website], agar dapat melihat rekomendasi kombinasi baju sesuai kategori yang saya inginkan, saya dapat memilih kategori yang saya inginkan pada daftar kategori dan melihat kumpulan kombinasi baju pada kategori yang saya inginkan.
 2. Sebagai [pengguna yang belum terdaftar], agar dapat menggunakan fitur aplikasi secara lebih lengkap, saya dapat membuat akun dengan cara mengetikkan nama email serta password dalam kotak sign up yang sudah disediakan.
 3. Sebagai [pengguna terdaftar], agar dapat menggunakan fitur aplikasi secara lebih lengkap, saya dapat login dengan cara mengetikkan nama email serta password dalam kotak sign up yang sudah disediakan.
@@ -42,59 +42,58 @@ User story
   - Visual Editing: Figma
 
 # Hasil dan Pembahasan
-1. Use Case Diagram
+
+### 1. Use Case Diagram
 <br>![usecase3](https://user-images.githubusercontent.com/55395896/120943074-ec451f80-c756-11eb-82c3-4bd6609eb70a.png)</br>
 
-2. Activity Diagram
-### Create account
-![signup2](https://user-images.githubusercontent.com/55395896/120929954-5f2da680-c715-11eb-983a-121460fd1f56.png)
+### 2. Activity Diagram
+#### Create account
+![signup3](https://user-images.githubusercontent.com/55395896/120944015-88255a00-c75c-11eb-9d79-e37ad817a9f3.png)
 
+#### Login
+![login3](https://user-images.githubusercontent.com/55395896/120944021-8d82a480-c75c-11eb-9201-bc8322ca0cc8.png)
 
-### Login
-![login2](https://user-images.githubusercontent.com/55395896/120929959-62289700-c715-11eb-9851-e0ad0e277963.png)
-
-### View Dress
+#### View Dress
 ![view](https://user-images.githubusercontent.com/55395896/120929510-82efed00-c713-11eb-9adf-c3a6791157d1.png)
 
 
-### Add to Favorite
+#### Add to Favorite
 ![addfav png2](https://user-images.githubusercontent.com/55395896/120929522-8c795500-c713-11eb-9633-56f84e187c67.png)
 
 
-### Remove from Favorite
+#### Remove from Favorite
 ![delfav1](https://user-images.githubusercontent.com/55395896/120929488-6e135980-c713-11eb-8a42-93344d9f6d83.png)
 
-### Edit profile
+#### Edit profile
 ![edit](https://user-images.githubusercontent.com/55395896/120929963-68b70e80-c715-11eb-8a46-8ae701328184.png)
 
-### Add dress [Admin]
+#### Add dress [Admin]
 ![admn_adddress](https://user-images.githubusercontent.com/55395896/120943508-80b08180-c759-11eb-94d3-020b41db2c02.png)
 
-### Manage user [Admin]
+#### Manage user [Admin]
 ![admn_manageuser](https://user-images.githubusercontent.com/55395896/120943521-8ad28000-c759-11eb-9f11-194a590ab591.png)
 
+### 3. Class Diagram
+
+![class3](https://user-images.githubusercontent.com/55395896/120944236-9d4eb880-c75d-11eb-895a-c37741bf1016.png)
 
 
-3. Class Diagram
 
-![class](https://user-images.githubusercontent.com/55395896/120925164-85494b80-c701-11eb-9baf-50252a8b235e.png)
-
-
-4. Entity Relationship Diagram
+### 4. Entity Relationship Diagram
 ![Untitled Diagram-Page-1](https://user-images.githubusercontent.com/55394643/120926977-6484f400-c709-11eb-960d-9d63e4ebcb0d.jpg)
 
-6. Arsitektur Sistem
+### 5. Arsitektur Sistem
 ![Untitled Diagram-Page-2 (1)](https://user-images.githubusercontent.com/55394643/120927179-23d9aa80-c70a-11eb-8b31-a85319675911.jpg)
 
 
-8. Fungsi Utama yang Dikembangkan
-    - Pada fitur Home Page, terdapat beberapa outfit pilihan yang sedang menjadi tren sehingga user dapat mengetahui outfit apa saja yang sedang menjadi tren.
-    - Pada fitur Categories, terdapat kategori outfit yang bervariasi. User dapat memilih kategori yang diinginkan pada daftar kategori dan melihat kumpulan kombinasi baju pada kategori yang diinginkan.
-    - Pada fitur Favorite, user yang sudah log in dapat menyimpan outfit yang disukai sehingga user dapat melihat lagi outfit yang sudah tersimpan.
-    - Pada fitur Delete, user dapat menghapus outfit yang pernah disukai.
-    - Pada fitur Sign Up, user dapat membuat akun agar dapat menggunakan situs seara lebih lengkap dengan mendaftarkan e-mail dan password.
-    - Pada fitur Log In, user yang telah memiliki akun dapat menggunakan situs seara lebih lengkap dengan mendaftarkan e-mail dan password.
-9. Fungsi CRUD
+### 6. Fungsi Utama yang Dikembangkan
+   - Pada fitur Home Page, terdapat beberapa outfit pilihan yang sedang menjadi tren sehingga user dapat mengetahui outfit apa saja yang sedang menjadi tren.
+   - Pada fitur Categories, terdapat kategori outfit yang bervariasi. User dapat memilih kategori yang diinginkan pada daftar kategori dan melihat kumpulan kombinasi baju pada kategori yang diinginkan.
+   - Pada fitur Favorite, user yang sudah log in dapat menyimpan outfit yang disukai sehingga user dapat melihat lagi outfit yang sudah tersimpan.
+   - Pada fitur Delete, user dapat menghapus outfit yang pernah disukai.
+   - Pada fitur Sign Up, user dapat membuat akun agar dapat menggunakan situs seara lebih lengkap dengan mendaftarkan e-mail dan password.
+   - Pada fitur Log In, user yang telah memiliki akun dapat menggunakan situs seara lebih lengkap dengan mendaftarkan e-mail dan password.
+### 7. Fungsi CRUD
   - Create
     - User: User membuat akun PickDress dengan menginput username, email, dan password
     - Admin: Admin membuat dress baru dengan menginput judul dress, gambar, deskripsi, kategori, dan keyword yang sesuai
@@ -109,7 +108,7 @@ User story
     - Admin: Admin dapat menghapus list dress
 
 # Hasil Implementasi
-1. Screenshot sistem
+### 1. Screenshot sistem
 ![Screenshot (173)](https://user-images.githubusercontent.com/78713826/120932551-8473e200-c720-11eb-98de-abd4c028deff.png)
 ![Screenshot (169)](https://user-images.githubusercontent.com/78713826/120932556-8b9af000-c720-11eb-8d69-4069e8c939c6.png)
 ![Screenshot (168)](https://user-images.githubusercontent.com/78713826/120932562-8fc70d80-c720-11eb-8f03-8ebade9fb9bd.png)
@@ -118,8 +117,8 @@ User story
 ![Screenshot (172)](https://user-images.githubusercontent.com/78713826/120932598-abcaaf00-c720-11eb-9e16-73dddb5861a0.png)
 ![Screenshot (174)](https://user-images.githubusercontent.com/78713826/120932569-95245800-c720-11eb-8cea-593f30dc5077.png)
 
-2. Link Aplikasi
-    <br>[PickDress](http://pickdress.herokuapp.com)</br>
+### 2. Link Aplikasi
+   <br>[PickDress](http://pickdress.herokuapp.com)</br>
 
 # Testing (test case)
   #### User Register
@@ -157,3 +156,4 @@ Situs yang kami buat masih jauh dari sempurna dikarenakan waktu dan keterbatasan
 3. Fitur most favorite outfits yang akan menampilkan beberapa set outfit yang paling banyak disukai oleh user sehingga user lain dapat menjadikan set tersebut sebagai bahan rekomendasi.
 4. Fitur share yang memungkinkan user untuk membagikan outfit yang diinginkan kepada orang lain.
 5. Fitur search & filter dapat digunakan user untuk mencari outfit sesuai dengan kata kunci yang dimasukkan. User bahkan dapat menggunakan filter untuk menyaring outfit dengan kriteria yang diinginkan.
+6. Aplikasi dapat dikembangkan sebagai Mobile App di Android atau iOS, dan menggunakan framework untuk memudahkan pengembangan aplikasi.
